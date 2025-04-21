@@ -1,11 +1,12 @@
 {
   "name": "sample-node-project",
   "version": "1.0.0",
-  "description": "Sample Node.js Project",
+  "description": "Sample Node.js Project with Linting and CI/CD",
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
-    "test": "jest"
+    "test": "node test.js",
+    "lint": "eslint ."
   },
   "author": "Adem Cemil YALCIN",
   "license": "ISC",
@@ -14,6 +15,6 @@
     "ejs": "latest"
   },
   "devDependencies": {
-    "jest": "^29.0.0"
+    "eslint": "^8.57.0"
   }
 }
